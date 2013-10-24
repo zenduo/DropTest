@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="ico/favicon.png">
+
+    <title>Drag and Drop Test</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/demo.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Drag and Drop Test</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Dummy Link</a></li>
+            <li><a href="#about">Dummy Link</a></li>
+            <li><a href="#contact">Dummy Link</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="row row-offcanvas row-offcanvas-right">
+        <div class="col-xs-12 col-sm-12">
+
+          <div class="row">
+            <div class="col-12 visible-sm visible-xs">
+              <img src="http://fpoimg.com/800x200" class="img-responsive"/>
+            </div>
+          </div>
+         
+          <div class="row">
+            <div class="col-6 col-sm-6 col-lg-6">
+              <h1>Drag and Drop</h1>
+              <p><em><strong>Order the items below into the correct order. When your finished click submit to see how you did!</strong></em></p>
+              <ul class="nav nav-pills nav-stacked">
+                <li>
+                  <a href="#">Monday</a>
+                </li>
+                <li>
+                  <a href="#">Tuesday</a>
+                </li>
+                <li>
+                  <a href="#">Wednesday</a>
+                </li>
+                <li>
+                  <a href="#">Thursday</a>
+                </li>
+                <li>
+                  <a href="#">Friday</a>
+                </li>
+                <li>
+                  <a href="#">Saturday</a>
+                </li>
+                <li>
+                  <a href="#">Sunday</a>
+                </li>
+              </ul>
+              <p><a class="btn btn-primary" data-toggle="modal" href="#myModal">Submit Answer &raquo;</a></p>
+            </div>
+
+            <div class="col-6 col-sm-6 col-lg-6 visible-md visible-lg">
+              <img src="http://fpoimg.com/600x500" class="img-responsive"/>
+            </div>
+
+          </div>
+
+        </div>
+
+
+      <!-- Modal -->
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h4 class="modal-title">Display "Correct!" or "Not Quite!" here...</h4>
+            </div>
+            <div class="modal-body">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, accusantium, fuga, excepturi dolores velit et iusto cum earum facilis nemo quod temporibus rem eligendi repudiandae enim quasi ipsum voluptatem repellat.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, cupiditate, omnis, molestiae, provident iure vitae beatae odio ipsam ab perferendis error hic asperiores dolores ex magni nesciunt quod ipsa sint. Velit, alias, earum iusto reprehenderit vero voluptatum quas nesciunt dolore deleniti tempora et nemo sequi ullam dolorum deserunt unde neque veritatis culpa perspiciatis ex dolores quae laborum possimus quisquam asperiores. Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">&lt; Try Again</button>
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="jumbotron">
+        <div class="container">
+          <h1>Brief <small>(please delete these at end)</small></h1>
+          <ul>
+            <li>Days of week should be randomised on page load</li>
+            <li>If days randomised show in the correct order re-randomise</li>
+            <li>User should be able to drag and drop / re-order items into a new order</li>
+            <li>On press of submit show modal pop-up</li>
+            <li>Depending on user submission, make modal pop-up title display "Correct!" or "Not Quite!"</li>
+            <li>If the order is correct, hide the "Try Again" button</li>
+            <li>If the order is incorrect, allow the user to see the Try again button, upon press, hide modal pop-up and re-randomise items</li>
+            <li>Must work on Touch devices as well as modern web browsers</li>
+          </ul>
+        </div>
+      </div>
+
+
+    </div>
+    </div>
+
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
