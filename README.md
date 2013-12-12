@@ -15,4 +15,4 @@ A basic competency test for a drag and drop interaction, suitable for both deskt
 
 Upon Completion of Test
 ========
-Please send a downloadable link to your files (please fo not email zip files) to ????@???.com along with documentation on any issues you had to overcome, tasks which were not achievable and why, and how long the overall task took you to complete.
+Please send a downloadable link to your files (please do not email zip files), along with documentation on any issues you had to overcome, tasks which were not achievable and why, and how long the overall task took you to complete.
