@@ -12,6 +12,7 @@ A basic competency test for a drag and drop interaction, suitable for both deskt
 - [ ] If the order is correct, hide the "Try Again" button
 - [ ] If the order is incorrect, allow the user to see the Try again button, upon press, hide modal pop-up and re-randomise items
 - [ ] Must work on Touch devices as well as modern web browsers
+- [ ] Apply a little colour and theme to the template to give it some character 
 
 Upon Completion of Test
 ========
